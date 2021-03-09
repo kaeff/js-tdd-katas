@@ -8,7 +8,7 @@ describe("spooler", () => {
       "Page 1/1"
     ];
 
-    printer(lines);
+    spooler(printer, lines);
 
     // Check that the test output contains the following lines:
     // ACME Corp

@@ -3,7 +3,7 @@ function printer(line) {
 };
 
 // Controls the printer by feeding it one line to print at a time
-function spooler(lines) {
+function spooler(printer, lines) {
   lines.forEach((line) => printer(line));
 };
 
